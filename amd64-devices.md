@@ -1,6 +1,6 @@
 # List
 
-+ Macbook Pro 2017 (high resolution)
++ Macbook Pro 2017 (high resolution, polished)
 + ASUS Ryzen laptop (fast)
 + GPD MicroPC (portable)
 
