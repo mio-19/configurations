@@ -2,6 +2,7 @@
 
 + Google Apps
 + KVM (LimboPC, Windows 10 on ARM) https://github.com/limboemu/limbo/wiki/KVM
++ Taking down notes
 
 # Procedure
 
