@@ -8,10 +8,11 @@
 # Procedure
 
 1. flash stock ROM (disable auto reboot)
-1. press volume down + power to reboot. hold volume up + volume down for returning to flash
+1. press volume down + power to reboot. hold volume up + power to boot into stock recovery
+1. wipe data & cache. reboot to bootloader
 1. flash TWRP. hold volume up + power to boot into TWRP
 1. wipe data & cache
-1. flash ~modified~ multi-disabler
+1. flash modified multi-disabler
 1. flash ThundeRStormS
 1. boot into system
 
