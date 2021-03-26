@@ -8,7 +8,7 @@ Running Linux programs without GPU
 + Clone all templates for backup
 + Clone debian template and install apps on the new one
 
-## Templates
+# Templates
 
 ## Debian 10
 
@@ -67,3 +67,7 @@ cat << 'EOF' | sudo tee /etc/gtk-3.0/settings.ini
 gtk-application-prefer-dark-theme=1
 EOF
 ```
+
+### AppVM
+
+Config Fcitx on the first boot (add googlepinyin and hide status panel)
