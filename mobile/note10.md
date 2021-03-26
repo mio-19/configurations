@@ -3,16 +3,17 @@
 + Google Apps
 + KVM (LimboPC, Windows 10 on ARM) https://github.com/limboemu/limbo/wiki/KVM
 + Taking down notes
++ Minecraft Java edition https://github.com/AOF-Dev/MCinaBox
 
 # Procedure
 
-+ flash stock ROM (disable auto reboot)
-+ press volume down + power to reboot, hold volume up + volume down for returning to flash
-+ flash TWRP, hold volume up + power to boot into TWRP
-+ wipe data & cache
-+ flash modified multi-disabler
-+ flash ThundeRStormS
-+ boot into system
+1. flash stock ROM (disable auto reboot)
+1. press volume down + power to reboot, hold volume up + volume down for returning to flash
+1. flash TWRP, hold volume up + power to boot into TWRP
+1. wipe data & cache
+1. flash modified multi-disabler
+1. flash ThundeRStormS
+1. boot into system
 
 ## TWRP
 
