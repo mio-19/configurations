@@ -3,6 +3,16 @@
 + Google Apps
 + KVM (LimboPC, Windows 10 on ARM) https://github.com/limboemu/limbo/wiki/KVM
 
+# Procedure
+
++ flash stock ROM (disable auto reboot)
++ press volume down + power to reboot, hold volume up + volume down for returning to flash
++ flash TWRP, hold volume up + power to boot into TWRP
++ wipe data & cache
++ flash modified multi-disabler
++ flash ThundeRStormS
++ boot into system
+
 ## TWRP
 
 https://forum.xda-developers.com/t/recovery-official-3-5-0-x-twrp-for-galaxy-note-10-5g-exynos.4198409/
