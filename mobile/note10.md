@@ -5,7 +5,7 @@
 + Taking down notes
 + Minecraft Java edition https://github.com/AOF-Dev/MCinaBox
 
-# Procedure
+# Installation
 
 1. flash stock ROM (disable auto reboot)
 1. press volume down + power to reboot. hold volume up + power to boot into stock recovery
@@ -13,7 +13,6 @@
 1. flash TWRP. hold volume up + power to boot into TWRP
 1. wipe data & cache
 1. flash modified multi-disabler
-1. flash ThundeRStormS
 1. boot into system
 
 ## TWRP
@@ -35,9 +34,17 @@ remove `disable_fbe`
 
 ## Kernel
 
-ThundeRStormS
+### CruelKernel
+
+https://github.com/CruelKernel/samsung-exynos9820
+
+Useful Features: Github Actions Build; Magisk
+
+### ThundeRStormS
 
 https://forum.xda-developers.com/t/kernel-thunderstorms-kernel-for-samsung-galaxy-s10-n10-family-only-exynos.4154863/
 https://github.com/ThunderStorms21th/Galaxy-S10
 
 Useful Features: Magisk
+
+### 
