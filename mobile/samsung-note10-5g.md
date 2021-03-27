@@ -11,7 +11,7 @@
 1. press volume down + power to reboot. hold volume up + power to boot into stock recovery
 1. wipe data & cache. reboot to bootloader
 1. flash TWRP. hold volume up + power to boot into TWRP
-1. wipe data & cache
+1. remove `/sdcard/TWRP`
 1. flash modified multi-disabler
 1. flash kernel
 1. boot into system
