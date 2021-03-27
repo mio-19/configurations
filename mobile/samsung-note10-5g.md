@@ -13,6 +13,7 @@
 1. flash TWRP. hold volume up + power to boot into TWRP
 1. wipe data & cache
 1. flash modified multi-disabler
+1. flash kernel
 1. boot into system
 
 ## TWRP
