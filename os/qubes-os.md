@@ -70,4 +70,4 @@ EOF
 
 ### AppVM
 
-Config Fcitx on the first boot (add googlepinyin and hide status panel)
+Config Fcitx on the first boot (add googlepinyin and hide status panel and not use system tray icon)
