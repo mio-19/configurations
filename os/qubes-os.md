@@ -86,3 +86,15 @@ Dom0
 ```
 sudo qubes-dom0-update && sudo dnf remove $(dnf repoquery --installonly --latest-limit=-1 -q)
 ```
+
+# Fix EFI
+
+/boot/efi/EFI/config.sh
+```
+#!/bin/sh
+# https://web.archive.org/web/20210328100018/https://www.qubes-os.org/doc/uefi-troubleshooting/#boot-device-not-recognized-after-installing
+rm -fr fedora/ BOOT/
+cp -r qubes/. BOOT
+cp BOOT/grub.cfg BOOT/BOOTX64.cfg
+cp BOOT/grubx64.efi BOOT/BOOTX64.efi
+```
