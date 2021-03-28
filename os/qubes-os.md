@@ -2,11 +2,11 @@
 
 Running Linux programs without GPU
 
-## Procedure
+## Installation
 
-+ Install Qubes OS 4.1 (btrfs)
-+ Clone all templates for backup
-+ Clone debian template and install apps on the new one
+1. Install Qubes OS 4.1 (btrfs)
+1. Clone all templates for backup; create a backup vm; backup sys-*
+1. Clone debian template and install apps on the new one
 
 # Templates
 
