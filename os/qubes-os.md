@@ -71,3 +71,18 @@ EOF
 ### AppVM
 
 Config Fcitx on the first boot (add googlepinyin and hide status panel and not use system tray icon)
+
+# Upgrade
+
+Fedora
+```
+sudo dnf upgrade && sudo dnf remove $(dnf repoquery --installonly --latest-limit=-1 -q)
+```
+Debian
+```
+sudo apt update && sudo apt full-upgrade && sudo apt autoremove --purge && sudo apt clean
+```
+Dom0
+```
+sudo qubes-dom0-update && sudo dnf remove $(dnf repoquery --installonly --latest-limit=-1 -q)
+```
